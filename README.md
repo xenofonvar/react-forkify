@@ -1,7 +1,7 @@
 # Getting Started with Create React App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app)./n
-In this project i migrated the forkify project from javascript to React.
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).\
+### In this project i migrated the forkify project from javascript to React.
 
 ## Available Scripts
 
