@@ -1,4 +1,4 @@
-# Getting Started with Create React App
+# Forkify project with React
 
 
 ### In this project i migrated the forkify project from javascript to React.\
