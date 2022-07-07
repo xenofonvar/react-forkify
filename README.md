@@ -1,7 +1,7 @@
 # Forkify project with React
 
 
-### In this project i migrated the forkify project from javascript to React.\
+### In this project i migrated the forkify project from javascript to React.
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 
