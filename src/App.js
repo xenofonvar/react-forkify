@@ -1,23 +1,25 @@
-import logo from './logo.svg';
-import './App.css';
+import "./sass/main.scss";
+import React from "react";
+import { AppProvider } from "./context/context";
+import MainPage from "./pages/MainPage";
 
 function App() {
+  // const [recipesState, setRecipesState] = useState({
+  //   recipes: {},
+  //   search: {
+  //     query: "",
+  //     results: [],
+  //     page: 1,
+  //     resultsPerPage: RES_PER_PAGE,
+  //   },
+  //   bookmarks: [],
+  // });
+
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <AppProvider>
+        <MainPage />
+      </AppProvider>
     </div>
   );
 }
